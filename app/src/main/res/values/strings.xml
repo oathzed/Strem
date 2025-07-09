@@ -12,6 +12,7 @@
     <string name="watchlist">Watchlist</string>
     <string name="collection">Collection</string>
     <string name="trending_movies">Trending Movies</string>
+    <string name="popular_movies">Popular Movies</string>
     <string name="popular_shows">Popular Shows</string>
     <string name="empty_section">Nothing to show here</string>
     

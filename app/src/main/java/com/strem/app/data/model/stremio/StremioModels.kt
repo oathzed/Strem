@@ -9,7 +9,12 @@ data class StremioAddon(
     val description: String?,
     val resources: List<String>?,
     val types: List<String>?,
-    val catalogs: List<StremioCatalog>?
+    val catalogs: List<StremioCatalog>?,
+    val background: String?,
+    val logo: String?,
+    val contactEmail: String?,
+    val transportName: String?,
+    val transportUrl: String?
 )
 
 data class StremioCatalog(
@@ -24,7 +29,12 @@ data class StremioStream(
     val url: String,
     @SerializedName("behaviorHints") val behaviorHints: BehaviorHints?,
     val description: String?,
-    val subtitles: List<StremioSubtitle>?
+    val subtitles: List<StremioSubtitle>?,
+    val size: Long? = null,
+    val fileIdx: Int? = null,
+    val quality: String? = null,
+    val infoHash: String? = null,
+    val sources: List<String>? = null
 )
 
 data class BehaviorHints(
