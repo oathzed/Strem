@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Strem</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Home Screen -->
+    <string name="continue_watching">Continue Watching</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="collection">Collection</string>
+    <string name="trending_movies">Trending Movies</string>
+    <string name="popular_shows">Popular Shows</string>
+    <string name="empty_section">Nothing to show here</string>
+    
+    <!-- Details Screen -->
+    <string name="play">Play</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="add_to_list">Add to List</string>
+    <string name="cast">Cast</string>
+    <string name="seasons">Seasons</string>
+    <string name="episodes">Episodes</string>
+    <string name="season_number">Season %1$d</string>
+    <string name="episode_number">Episode %1$d</string>
+    <string name="add_to_watchlist">Add to Watchlist</string>
+    <string name="add_to_collection">Add to Collection</string>
+    <string name="remove_from_watchlist">Remove from Watchlist</string>
+    <string name="remove_from_collection">Remove from Collection</string>
+    
+    <!-- Source Selection -->
+    <string name="select_source">Select Source</string>
+    <string name="quality">Quality</string>
+    <string name="source">Source</string>
+    <string name="size">Size</string>
+    <string name="no_sources_found">No sources found</string>
+    
+    <!-- Player -->
+    <string name="subtitles">Subtitles</string>
+    <string name="audio_track">Audio Track</string>
+    <string name="playback_speed">Playback Speed</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Search for movies and TV shows</string>
+    <string name="no_results">No results found</string>
+    
+    <!-- Settings -->
+    <string name="stremio_addons">Stremio Addons</string>
+    <string name="add_addon">Add Addon</string>
+    <string name="addon_url">Addon URL</string>
+    <string name="addon_url_hint">https://example.com/manifest.json</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="trakt_integration">Trakt Integration</string>
+    <string name="login_to_trakt">Login to Trakt</string>
+    <string name="logout_from_trakt">Logout from Trakt</string>
+    <string name="logged_in_as">Logged in as: %1$s</string>
+    <string name="not_logged_in">Not logged in</string>
+    <string name="api_keys">API Keys</string>
+    <string name="tmdb_api_key">TMDB API Key</string>
+    <string name="trakt_client_id">Trakt Client ID</string>
+    <string name="trakt_client_secret">Trakt Client Secret</string>
+    <string name="playback_settings">Playback Settings</string>
+    <string name="resume_playback">Resume Playback</string>
+    <string name="cache_streams">Cache Streams</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    
+    <!-- Errors -->
+    <string name="error_loading_content">Error loading content</string>
+    <string name="error_playing_content">Error playing content</string>
+    <string name="error_trakt_auth">Error authenticating with Trakt</string>
+    <string name="error_invalid_addon">Invalid addon URL</string>
+    
+    <!-- Misc -->
+    <string name="loading">Loading…</string>
+    <string name="retry">Retry</string>
+</resources>
